@@ -1,0 +1,50 @@
+body {
+    overflow-x: hidden;
+}
+
+.fixedimg {
+    background-attachment: fixed;
+    background-size: cover;
+    height: 250px;
+}
+
+.fixedimg1 {
+    background-image: url(../imgs/img.jpg);
+}
+
+.fixedimg2 {
+    background-image: url(../imgs/خلفيات-جيمر-للكمبيوتر-4.jpg)
+}
+
+.myicon {
+    height: 35px;
+    width: 35px;
+    border: 1px solid black;
+    border-radius: 17px;
+}
+
+.navbar-brand {
+    transition: 0.4s;
+}
+
+.navbar-brand:hover {
+    text-shadow: 10px 10px 20px white, -10px -10px 20px white;
+}
+
+.dropdown-menu li a {
+    text-shadow: 1px 1px 0px rgb(229 249 252);
+}
+
+.carousel-inner .carousel-caption {
+    background: rgba(200, 200, 200, 0.3);
+    border-radius: 5px;
+}
+
+.lii {
+    /* color: #CCCCFF !important; */
+    color: #d2fdff !important;
+}
+
+.lii:hover {
+    color: white !important;
+}
